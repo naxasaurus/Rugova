@@ -211,13 +211,6 @@ section{
    flex-wrap: wrap;
 }
 
-.services .box-container{
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(2rem, 0.3fr));
-   gap: 1rem;
-   justify-content: left;
-   align-items: flex-start;
-}
 
 .services .box-container .box{
    padding: 2rem;
