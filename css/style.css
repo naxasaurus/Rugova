@@ -213,15 +213,15 @@ section{
 
 .services .box-container{
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
-   gap: 1.5rem;
-   justify-content: center;
+   grid-template-columns: repeat(auto-fit, minmax(2rem, 0.3fr));
+   gap: 1rem;
+   justify-content: left;
    align-items: flex-start;
 }
 
 .services .box-container .box{
    padding: 2rem;
-   text-align: center;
+   text-align: left;
 }
 
 .services .box-container .box img{
@@ -233,13 +233,15 @@ section{
    font-size: 2rem;
    color: var(--sub-color);
    text-transform: capitalize;
+   text-align: left;
    margin: 1rem 0;
 }
 
 .services .box-container .box p{
-   line-height: 2;
-   font-size: 1.5rem;
+   line-height: 0.5;
+   font-size: 2rem;
    color:var(--sub-color);
+   text-align: left;
 }
 
 .reservation form{
